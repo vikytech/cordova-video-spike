@@ -4,6 +4,10 @@
         "uninstalled": []
     },
     "config_munge": {},
-    "installed_plugins": {},
+    "installed_plugins": {
+        "com.phonegap.plugins.videoplayer": {
+            "PACKAGE_NAME": "com.thoughtworks.sales"
+        }
+    },
     "dependent_plugins": {}
 }

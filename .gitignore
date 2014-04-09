@@ -10,9 +10,15 @@
 *.class
 
 # generated files
-bin/
-gen/
+bin
+gen
+out
+platforms/android/CordovaLib
+platforms/android/gen
+platforms/android/ant-gen
+platforms/android/ant-build
 .DS_Store
+*.log
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -28,4 +34,8 @@ proguard/
 *.iml
 *.ipr
 *.iws
-.idea/
+.idea
+
+
+# Xcode generated files
+*.pbxproj
